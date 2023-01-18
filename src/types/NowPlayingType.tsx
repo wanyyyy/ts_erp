@@ -1,28 +1,23 @@
 export interface NowType{
-    adult? :boolean;
-    backdrop_path? :string;
-    genre_ids? :GItype[];
-    length? :number;
-    id :number;
-    original_language? :string;
-    original_title :string;
-    overview :string;
-    popularity? :number;
-    poster_path :string;
-    release_date :string;
-    title :string;
-    video? :boolean;
-    vote_average :number;
-    vote_count? :number;
+    adult : ;
+    backdrop_path : ;
+    genre_ids : ;
+    length : ;
+    id : ;
+    original_language : ;
+    original_title : ;
+    overview : ;
+    popularity : ;
+    poster_path : ;
+    release_date : ;
+    title : ;
+    video : ;
+    vote_average : ;
+    vote_count : ;
 }
 
 export type GItype = {
-    0 :number;
-    1 :number;
-    2 :number;
-    3 :number;
-    4 :number;
-    5 :number;
+    0 : ;
 }
 
 {/** api 결과 값
