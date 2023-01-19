@@ -2,7 +2,6 @@ export interface NowType{
     adult : ;
     backdrop_path : ;
     genre_ids : ;
-    length : ;
     id : ;
     original_language : ;
     original_title : ;
@@ -16,31 +15,25 @@ export interface NowType{
     vote_count : ;
 }
 
-export type GItype = {
-    0 : ;
-}
 
 {/** api 결과 값
 
-adult : false
-backdrop_path : "/r9PkFnRUIthgBp2JZZzD380MWZy.jpg"
-genre_ids : Array(6)
-    0 : 16
-    1 : 28
-    2 : 12
-    3 : 35
-    4 : 10751
-    5 : 14
-id : 315162
-original_language : "en"
-original_title : "Puss in Boot : he Last Wish"
-overview : "아홉 개의 목숨 중 단 하나의 목숨만 남은 장화신은 고양이.  마지막 남은 목숨을 지키기 위해 히어로의 삶 대신 반려묘의 삶을 선택한 그에게 찾아온 마지막 기회, 바로 소원을 들어주는 소원별이 있는 곳을 알려주는 지도!  잃어버린 목숨을 되찾고 다시 히어로가 되기를 꿈꾸는 장화신은 고양이는 뜻밖에 동료가 된 앙숙 파트너 '키티 말랑손', 그저 친구들과 함께라면 모든 게 행복한 강아지 '페로'와 함께 소원별을 찾기 위해 길을 떠난다.  그리고 소원별을 노리는 또 다른 빌런들과 마주치게 되는데…"
-popularity : 10052.881
-poster_path : "/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg"
-release_date : "2022-12-07"
-title : "장화신은 고양이 : 내주는 모험"
-video : false
-vote_average : 8.6
-vote_count : 1893
+"adult": false,
+"backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+"genre_ids": [
+                28,
+                18
+            ],
+"id": 361743,
+"original_language": "en",
+"original_title": "Top Gun: Maverick",
+"overview": "최고의 파일럿이자 전설적인 인물 매버릭은 자신이 졸업한 훈련학교 교관으로 발탁된다. 그의 명성을 모르던 팀원들은 매버릭의 지시를 무시하지만 실전을 방불케 하는 상공 훈련에서 눈으로 봐도 믿기 힘든 전설적인 조종 실력에 모두가 압도된다. 매버릭의 지휘 아래 견고한 팀워크를 쌓아가던 팀원들에게 국경을 뛰어넘는 위험한 임무가 주어지자 매버릭은 자신이 가르친 동료들과 함께 마지막이 될지 모를 하늘 위 비행에 나서는데...",
+"popularity": 585.986,
+"poster_path": "/jeqXUwNilvNqNXqAHsdwm5pEfae.jpg",
+"release_date": "2022-05-24",
+"title": "탑건: 매버릭",
+"video": false,
+"vote_average": 8.3,
+"vote_count": 5678
 
 */}
